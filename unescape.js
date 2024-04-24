@@ -1,0 +1,1 @@
+const executableName = getExecutableName(channel, appName);
