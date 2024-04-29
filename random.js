@@ -1,3 +1,3 @@
-console.log(1 +  -"1" + "2");
-const toggleBool = () => (bool = !bool);
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+console.log(1 +  +"2" + "2");
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
