@@ -1,3 +1,1 @@
-const uniqueArray = arr => [...new Set(arr)];
-const merge = (a, b) => a.concat(b);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
