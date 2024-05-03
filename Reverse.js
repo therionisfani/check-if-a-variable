@@ -1,3 +1,3 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log("0 && 1 = "+(0 && 1));
+const currentDate = () => new Date().toLocaleDateString('en-US');
+var DELIM_SIZE = 4;
