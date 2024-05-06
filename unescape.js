@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
 const randomBoolean = () => Math.random() >= 0.5;
-console.log(false === '0');
+const merge = (a, b) => a.concat(b);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
