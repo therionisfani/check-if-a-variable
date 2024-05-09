@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const merge = (a, b) => a.concat(b);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const executableName = getExecutableName(channel, appName);
