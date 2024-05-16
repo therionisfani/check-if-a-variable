@@ -1,1 +1,3 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const result = await makeHttpRequest(url);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const reversedString = str => str.split('').reverse().join('');
