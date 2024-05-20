@@ -1,3 +1,2 @@
-const result = await makeHttpRequest(url);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const reversedString = str => str.split('').reverse().join('');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+console.log( "A" - "B" + 2);
