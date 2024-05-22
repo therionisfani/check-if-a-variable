@@ -1,1 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
+const uniqueArr = (arr) => [...new Set(arr)];
+console.log(false === '0');
