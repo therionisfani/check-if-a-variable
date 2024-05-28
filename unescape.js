@@ -1,1 +1,1 @@
-const merge = [...new Set(a.concat(b))];
+const result = await makeHttpRequest(url);
