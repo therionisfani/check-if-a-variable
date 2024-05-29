@@ -1,1 +1,1 @@
-console.log(1 +  +"2" + "2");
+const merge = [...new Set([...a, ...b])];
