@@ -1,3 +1,3 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-const goToTop = () => window.scrollTo(0, 0);
+const fullName = name || 'buddy';
+const executableName = getExecutableName(channel, appName);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
