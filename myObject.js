@@ -1,1 +1,1 @@
-const merge = Object.assign({}, obj1, obj2);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
