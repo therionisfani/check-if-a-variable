@@ -1,1 +1,1 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const value = ( 5 < 7 ) ? "True" : "False" ;
