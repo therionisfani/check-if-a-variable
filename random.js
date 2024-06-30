@@ -1,2 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const uniqueArray = arr => [...new Set(arr)];
+console.log("1 && 2 = "+(1 && 2));
+console.log(1 +  -"1" + "2");
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
