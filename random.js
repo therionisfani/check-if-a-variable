@@ -1,3 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-console.log(1 +  -"1" + "2");
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
