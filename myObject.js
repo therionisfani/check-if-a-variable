@@ -1,1 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+[foo, bar] = [bar, foo];
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isTabInView = () => !document.hidden;
