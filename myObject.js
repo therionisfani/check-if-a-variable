@@ -1,3 +1,3 @@
-[foo, bar] = [bar, foo];
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const channelName = getChannelName(channel);
 const isTabInView = () => !document.hidden;
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
