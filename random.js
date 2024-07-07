@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log("1 || 2 = "+(1 || 2));
+const isArray = (arr) => Array.isArray(arr);
