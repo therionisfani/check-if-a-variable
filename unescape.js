@@ -1,2 +1,2 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const randomString = () => Math.random().toString(36).slice(2);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const updated = numbers.filter(element => element > 6);
