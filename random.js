@@ -1,1 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
+var pattern = {};
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
