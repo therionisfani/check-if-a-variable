@@ -1,1 +1,3 @@
-const isEmptyArray = arr => !arr.length;
+const fullName = name || 'buddy';
+const merge = [...new Set(a.concat(b))];
+const lastElement = arr => arr[arr.length - 1];
