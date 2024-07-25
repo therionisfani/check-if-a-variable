@@ -1,3 +1,1 @@
-const fullName = name || 'buddy';
-const merge = [...new Set(a.concat(b))];
-const lastElement = arr => arr[arr.length - 1];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
