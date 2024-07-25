@@ -1,2 +1,3 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const fullName = name || 'buddy';
+var DELIM_SIZE = 4;
