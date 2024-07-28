@@ -1,2 +1,1 @@
-const result = await makeHttpRequest(url);
-var pattern = {};
+const merge = (a, b) => a.concat(b);
