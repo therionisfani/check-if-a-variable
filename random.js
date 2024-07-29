@@ -1,1 +1,3 @@
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isTabInView = () => !document.hidden;
+var c = new Counter(); c.add(); c.add(); c.add();
