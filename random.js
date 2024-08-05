@@ -1,3 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const isTabInView = () => !document.hidden;
-var c = new Counter(); c.add(); c.add(); c.add();
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+function myAPITS(someString: string, someNum: number) { ... };
