@@ -1,3 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-[foo, bar] = [bar, foo];
-const repositoryRootPath = path.resolve(__dirname, '..');
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const goToTop = () => window.scrollTo(0, 0);
+const merge = (a, b) => [...a, ...b];
